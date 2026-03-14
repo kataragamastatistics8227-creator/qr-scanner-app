@@ -329,6 +329,13 @@ elem.requestFullscreen();
 
 },{once:true});
 
+fetch("https://script.google.com/macros/s/AKfycbytvjtKSiNlO2uLiVW2sz0unvSXnTn2C8HF0W3ZdUNw/dev", {
+  method: "POST",
+  body: JSON.stringify({
+    qr: scannedCode
+  })
+});
+
 </script>
 
 </body>
